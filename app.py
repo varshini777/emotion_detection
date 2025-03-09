@@ -8,7 +8,7 @@ import os
 
 
 # api configuration (gemini api)
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAxRo7SkwliOmPqlLXlIlmrC0XxgP3zUes"
+os.environ["GOOGLE_API_KEY"] = "your api key"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # initialize text to speech engine
